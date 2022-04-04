@@ -1,2 +1,4 @@
 # HouseHuntNotebook
 A Jupyter Notebook I wrote to help with my househunting.
+
+The notebook was written to take in data from CSV files downloaded from Redfin.com.  The user will need to hard-code in the path names to the files used.  Redfin has an upper limit on the number of entries they will allow a user to download but this notebook will stitch multiple files into one table to get around that limitation.  Also, the notebook can weight listings based on distance from three locations listed here as "work", "church", and "old house", the LAT and LONG of these locations needs to also be hard-coded into the notebook.  In the future I want to make this more dynamic so that they user can input the hard-coded values mentioned above and possibly use webscrapping instead of downloading files to get the Redfin data (or at least automate the download process).
